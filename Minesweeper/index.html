@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="minesweeper.js"></script>
+    <script src="https://kit.fontawesome.com/070a8f7fde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navigation">
+        <div>
+            <li><a href="../index.html" id="My-Name">Lokesh Taduri</a></li>
+            <li><a href="../sample.pdf" id="resume" download>Resume</a></li>
+            <li><a href="../Apps/index.html" id="apps">Apps</a></li>
+
+        </div>
+        <nav>
+                <li><a href="https://www.instagram.com/_lokesh_08/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="mailto:lokeshthaduri1@gmail.com"><i class="fa-solid fa-envelope"></i></i></a></li>
+                <li><a href="https://in.linkedin.com/in/lokesh-taduri-1305811a2"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/LokeshTaduri1"><i class="fa-brands fa-github"></i></a></li>
+            
+        </nav>
+       </div>
+    <div class="mine-sweeper">Mine Sweeper</div>
+    <div class="mines-box">
+        <h1>Mines:<span id="mines-count">0</span></h1>
+        <button id="flag-button"><i class="fa-solid fa-flag"></i></button>
+        <button class="reset-button" onclick="window.location.reload()">Reset</button>
+    </div>
+    <br>
+    <div id="board">
+    </div>
+    
+</body>
+</html>
