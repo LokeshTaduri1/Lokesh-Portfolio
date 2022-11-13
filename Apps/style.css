@@ -1,0 +1,197 @@
+body{
+    margin: 0 auto;
+    background: #17192a;
+    color:white;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    border-bottom: 2px solid #117aff;
+    display: flex;
+    justify-content: space-between;
+}
+#resume{
+    font-size: 20px;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    font-size:20px;
+}
+.navigation #My-Name {
+    font-size:25px;
+    color:white;
+}
+.navigation li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.navigation nav li{
+    margin-top:20px;
+}
+.navigation nav li:hover{
+    transform: translateY(-4.5px);
+}
+.navigation nav a:hover{
+    color: #0a65ee;
+}
+.profile-photo{
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 4px double transparent;
+    background-image: linear-gradient(#0d0e21,#0d0e21),radial-gradient(circle at left top,#17e24a,#0a65ee);
+    background-origin: border-box;
+    background-clip: padding-box,border-box;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div h5{
+    color: #ff5411;
+    margin-left: 70px ;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 28px;
+}
+.container1{
+    width: 25%;
+    height: 800px;
+    color: #0a65ee;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.container1 div{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #0d0e21;
+    transition: 0.6s;
+}
+.apple{
+    background-color: #black;
+    border:2px solid #117aff;
+    margin-top: 50px;
+}
+.container2{
+    width: 20%;
+    height: 800px;
+    color: #0a65ee;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.container2 div{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #0d0e21;
+    transition: 0.6s;
+
+}
+.ball{
+    background-color: #black;
+    border:2px solid #117aff;
+    margin-top: 50px;
+}
+.ball:nth-child(3)
+{
+    margin-bottom: 20px;
+}
+.container3{
+    width: 25%;
+    height: 800px;
+    color: #0a65ee;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.container3 div{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #0d0e21;
+    transition: 0.6s;
+
+}
+.cat{
+    background-color: #black;
+    border:2px solid #117aff;
+    margin-top: 50px;
+
+}
+.container4{
+    width: 20%;
+    height: 800px;
+    color: #0a65ee;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.container4 div{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #0d0e21;
+    transition: 0.6s;
+
+}
+.dog{
+    background-color: #black;
+    border:2px solid #117aff;
+    margin-top: 50px;
+}
+.apple:hover{
+    transform: scale(1.04);
+    z-index: 2;
+    cursor: pointer;
+}
+.ball:hover{
+    transform: scale(1.04);
+    z-index: 2;
+    cursor: pointer;
+
+}
+.cat:hover{
+    transform: scale(1.04);
+    z-index: 2;
+    cursor: pointer;
+
+}
+.dog:hover{
+    transform: scale(1.04);
+    z-index: 2;
+    cursor: pointer;
+}
+div p{
+    color: #cfced2;
+    font-size: 18px;
+}
+ button{
+    display: flex;
+    justify-content: flex-end;
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#12c2e9,#c471ed,#f64f59);
+}
